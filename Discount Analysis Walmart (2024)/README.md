@@ -1,30 +1,62 @@
-# 🛒 Walmart Canada Supplement Sales Analysis (2024)
+# 🏦 Walmart Supplement Sales Analysis (Canada - 2024)
 
-## 📋 Project Description
-This project analyzes Walmart Canada's supplement sales data for 2024, focusing on:
-- Discount trends and volatility
-- Revenue, cost of goods sold (COGS), and operating income patterns
-- Return impact related to discounts
-- Profit per unit analysis across product categories (Vitamin, Mineral, Protein)
+## 🔹 Overview
+An end-to-end **data analysis project** on Walmart's 2024 supplement sales in **Canada**, focusing on:
+- Discount volatility trends
+- Return impact analysis
+- Profitability measurement
+- Revenue distribution across categories
 
-## 🛠️ Tools & Technologies
-- Python (Pandas, NumPy, Matplotlib, Seaborn)
-- Excel
-- Tableau (for dashboard visualization)
+## 🔹 Objectives
+- **Analyze** discounting behavior and its effect on returns and revenue.
+- **Correlate** discount rates with net profitability trends.
+- **Visualize** Walmart's financial health through dashboards.
 
-## 📊 Key Insights
-- Moderate discounts (14-15%) generate the best revenue performance.
-- Vitamin supplements lead total sales.
-- Return rates slightly correlate with discount volatility.
+## 🔹 Technologies Used
+- **Python**: pandas, matplotlib, seaborn
+- **Excel**: Data aggregation and regression charts
+- **Tableau**: Interactive dashboards
 
-## 📂 Project Structure
-| File | Description |
-|------|-------------|
-| `W-project.py` | Data cleaning, aggregation, visualization, and export scripts |
-| `supplement_analysis_final.xlsx` | Final processed datasets used for dashboard creation |
+## 🔹 Project Structure
+```bash
+├── Walmart-project.py         # Main analysis Python script
+├── Data/
+│   ├── financial_statement.xlsx  # Quarterly financial figures
+│   └── Supplement_Sales_Weekly.csv  # Supplement sales and discount data
+├── img/
+│   ├── Heatmaps, Line Charts, Bubble Charts (Visual Outputs)
+├── requirements.txt           # Python dependencies
+└── README.md                    # Project documentation
+```
 
-## 📈 Visualizations
-Dashboards are created using Tableau Public based on the final dataset.
+## 🔹 How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/prhxm/Walmart-Analysis-2024.git
+   ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run the Python script:
+   ```bash
+   python Walmart-project.py
+   ```
+4. Open the Excel and Tableau dashboards for visual analysis.
 
-## 👤 Author
-- Parham Parvizi (2025)
+## 🔹 Key Insights
+- Walmart’s revenue grew consistently despite discount volatility.
+- Vitamins led supplement sales and revenue generation.
+- Moderate discounts correlated better with higher profit and lower return rates.
+
+## 🔹 Outputs
+- **Heatmaps** of feature correlations
+- **Line plots** of discount vs return impact
+- **Revenue regression models**
+- **Dynamic Tableau dashboards** (Quarterly + Monthly Views)
+
+---
+
+> ✨ Created with passion by **Parham Parvizi** | [prhxm](https://github.com/prhxm)
+
+---
